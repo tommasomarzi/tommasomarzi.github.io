@@ -40,26 +40,26 @@ let ty_inp;
 
 function parameters(cnv_pos)
 {  
-  let v_shift = cnv_pos.y+450;
+  let v_shift = cnv_pos.y+50;//cnv_pos.y+450;
   
-  let h_shift = cnv_pos.x+160;
+  let h_shift = cnv_pos.x+400;//cnv_pos.x+160;
   
   var greeting = createElement('h8', 'rho: ');
-  greeting.position(h_shift-160, v_shift);
+  greeting.position(h_shift+80, v_shift+80);
   r_inp = createInput('28', 'float');
-  r_inp.position(h_shift-80, v_shift);
+  r_inp.position(h_shift+160, v_shift+80);
   r_inp.size(70);
   
   greeting = createElement('h8', 'sigma: ');
-  greeting.position(h_shift-160, v_shift+20);
+  greeting.position(h_shift+80, v_shift+100);
   s_inp = createInput('10', 'float');
-  s_inp.position(h_shift-80, v_shift+20);
+  s_inp.position(h_shift+160, v_shift+100);
   s_inp.size(70);
   
   greeting = createElement('h8', 'beta: ');
-  greeting.position(h_shift-160, v_shift+40);
+  greeting.position(h_shift+80, v_shift+120);
   b_inp = createInput('2.66667', 'float');
-  b_inp.position(h_shift-80, v_shift+40);
+  b_inp.position(h_shift+160, v_shift+120);
   b_inp.size(70);
   
   greeting = createElement('h8', 'Initial x: ');
@@ -81,33 +81,33 @@ function parameters(cnv_pos)
   z_inp.size(70);
   
   greeting = createElement('h8', 'X-axis variable: ');
-  greeting.position(h_shift-190, v_shift+80);
+  greeting.position(h_shift+50, v_shift+160);
   xp_inp = createInput('x');
-  xp_inp.position(h_shift-80, v_shift+80);
+  xp_inp.position(h_shift+160, v_shift+160);
   xp_inp.size(70);
   
   greeting = createElement('h8', 'Y-axis variable: ');
-  greeting.position(h_shift-190, v_shift+100);
+  greeting.position(h_shift+50, v_shift+180);
   yp_inp = createInput('z');
-  yp_inp.position(h_shift-80, v_shift+100);
+  yp_inp.position(h_shift+160, v_shift+180);
   yp_inp.size(70);
   
   greeting = createElement('h8', 'Scaling: ');
-  greeting.position(h_shift+80, v_shift+80);
+  greeting.position(h_shift+80, v_shift+220);
   sv_inp = createInput('3', 'float');
-  sv_inp.position(h_shift+160, v_shift+80);
+  sv_inp.position(h_shift+160, v_shift+220);
   sv_inp.size(70);
   
   greeting = createElement('h8', 'Translate x: ');
-  greeting.position(h_shift+80, v_shift+100);
+  greeting.position(h_shift+80, v_shift+260);
   tx_inp = createInput('50', 'float');
-  tx_inp.position(h_shift+160, v_shift+100);
+  tx_inp.position(h_shift+160, v_shift+280);
   tx_inp.size(70);
   
   greeting = createElement('h8', 'Translate y: ');
-  greeting.position(h_shift+80, v_shift+120);
+  greeting.position(h_shift+80, v_shift+320);
   ty_inp = createInput('50', 'float');
-  ty_inp.position(h_shift+160, v_shift+120);
+  ty_inp.position(h_shift+160, v_shift+320);
   ty_inp.size(70);
 
 
