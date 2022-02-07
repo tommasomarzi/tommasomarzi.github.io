@@ -10,6 +10,12 @@
     font-weight: bold;
 }
 
+h2 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #cc9966;
+}
+
 p {
     font-size: 1.2em;
     line-height: 1.0em;
