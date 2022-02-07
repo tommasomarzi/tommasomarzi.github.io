@@ -26,39 +26,68 @@ let y_plot = 'z';
 let x_inp;
 let y_inp;
 
+let scale_value = 3;
+let transl_x = 50;
+let transl_y = 50;
+ 
+let sv_inp;
+let tx_inp;
+let ty_inp;
+
 function parameters()
 {  
-  let v_shift = 260;
+  let v_shift = 350;
+  
+  let h_shift = 500;
   
   var greeting = createElement('h8', 'rho: ');
-  greeting.position(450, v_shift);
+  greeting.position(h_shift, v_shift);
   r_inp = createInput('28', 'float');
-  r_inp.position(530, v_shift);
+  r_inp.position(h_shift+80, v_shift);
   r_inp.size(70);
   
   greeting = createElement('h8', 'sigma: ');
-  greeting.position(450, v_shift+20);
+  greeting.position(h_shift, v_shift+20);
   s_inp = createInput('10', 'float');
-  s_inp.position(530, v_shift+20);
+  s_inp.position(h_shift+80, v_shift+20);
   s_inp.size(70);
   
   greeting = createElement('h8', 'beta: ');
-  greeting.position(450, v_shift+40);
+  greeting.position(h_shift, v_shift+40);
   b_inp = createInput('2.66667', 'float');
-  b_inp.position(530, v_shift+40);
+  b_inp.position(h_shift+80, v_shift+40);
   b_inp.size(70);
   
   greeting = createElement('h8', 'X-axis variable: ');
-  greeting.position(420, v_shift+80);
+  greeting.position(h_shift-70, v_shift+80);
   x_inp = createInput('x');
-  x_inp.position(530, v_shift+80);
+  x_inp.position(h_shift+80, v_shift+80);
   x_inp.size(70);
   
   greeting = createElement('h8', 'Y-axis variable: ');
-  greeting.position(420, v_shift+100);
+  greeting.position(h_shift-70, v_shift+100);
   y_inp = createInput('z');
-  y_inp.position(530, v_shift+100);
+  y_inp.position(h_shift+80, v_shift+100);
   y_inp.size(70);
+  
+  greeting = createElement('h8', 'Scaling: ');
+  greeting.position(h_shift-40, v_shift+140);
+  sv_inp = createInput('3', 'float');
+  sv_inp.position(h_shift+80, v_shift+140);
+  sv_inp.size(70);
+  
+  greeting = createElement('h8', 'Translate x: ');
+  greeting.position(h_shift-40, v_shift+160);
+  tx_inp = createInput('50', 'float');
+  tx_inp.position(h_shift+80, v_shift+160);
+  tx_inp.size(70);
+  
+  greeting = createElement('h8', 'Translate y: ');
+  greeting.position(h_shift-40, v_shift+180);
+  ty_inp = createInput('50', 'float');
+  ty_inp.position(h_shift+80, v_shift+180);
+  ty_inp.size(70);
+
 
 }
 
@@ -70,6 +99,10 @@ function get_parameters()
   
   x_plot = x_inp.value();
   y_plot = y_inp.value();
+  
+  scale_value = sv_inp.value();
+  transl_x = tx_inp.value();
+  transl_y = ty_inp.value();
 }
 
 
@@ -100,9 +133,9 @@ function keyReleased() {
 
 function draw()
 {
-  scale(3);
+  scale(scale_value);
   background(0);
-  translate(50,50);
+  translate(transl_x,transl_y);
   
   trajectory[trajectory.length] = createVector(x,y,z);
   
