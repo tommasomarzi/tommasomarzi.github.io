@@ -101,13 +101,13 @@ function parameters(cnv_pos)
   greeting = createElement('h8', 'Translate x: ');
   greeting.position(h_shift+80, v_shift+260);
   tx_inp = createInput('50', 'float');
-  tx_inp.position(h_shift+160, v_shift+280);
+  tx_inp.position(h_shift+160, v_shift+260);
   tx_inp.size(70);
   
   greeting = createElement('h8', 'Translate y: ');
-  greeting.position(h_shift+80, v_shift+320);
+  greeting.position(h_shift+80, v_shift+280);
   ty_inp = createInput('50', 'float');
-  ty_inp.position(h_shift+160, v_shift+320);
+  ty_inp.position(h_shift+160, v_shift+280);
   ty_inp.size(70);
 
 
