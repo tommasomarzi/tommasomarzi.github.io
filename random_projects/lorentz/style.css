@@ -18,14 +18,19 @@ p {
 
 .script{
   display: flex;
-  position: static;  
+  position: static;
+  object-position:center;
+  margin-left: 20px auto;
+  margin-right: 20px auto;
   justify-content: center;
 }
 
 .description{
     font-size: 1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #333; 
-    padding-left: 20px;
-    padding-right: 20px;
+    color: #333;
+  
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
