@@ -17,6 +17,12 @@ canvas {
     font-weight: bold;
 }
 
+p {
+    font-size: 1.5em;
+    line-height: 0.9em;
+    color: #333;
+}
+
 .script{
   display: flex;
 }
