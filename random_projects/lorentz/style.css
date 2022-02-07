@@ -5,3 +5,24 @@ html, body {
 canvas {
   display: block;
 }
+
+.title{
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #bf8040;
+    text-align: center;
+}
+
+.script{
+  display: flex;
+}
+
+.container{
+
+}
+
+.description{
+    font-size: 1em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #333;
+}
