@@ -1,4 +1,4 @@
-body {
+* {
     margin-top: 0;
     margin-right: 50px auto;
     margin-bottom: 0;
@@ -18,8 +18,8 @@ canvas {
 }
 
 p {
-    font-size: 1.5em;
-    line-height: 0.9em;
+    font-size: 1.2em;
+    line-height: 1.0em;
     color: #333;
 }
 
