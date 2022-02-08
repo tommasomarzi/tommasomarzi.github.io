@@ -145,7 +145,7 @@ function setup()
 }
 
 function keyReleased() {
-  if(key == KeyCodes.KEY_ENTER)
+  if(keyCode == 13)
   {        
     get_parameters();
     background(0);
