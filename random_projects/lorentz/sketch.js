@@ -145,7 +145,7 @@ function setup()
 }
 
 function keyReleased() {
-  if(key == ' ')
+  if(key == KeyCodes.KEY_ENTER)
   {        
     get_parameters();
     background(0);
