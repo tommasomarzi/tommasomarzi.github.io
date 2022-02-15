@@ -1,0 +1,36 @@
+* {
+    margin:0;
+}
+
+.title{
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #bf8040;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.0em;
+    color: #333;
+}
+
+.script{
+  display: flex;
+  position: static;
+  object-position:center;
+  margin-left: 20px auto;
+  margin-right: 20px auto;
+  justify-content: center;
+}
+
+.description{
+    font-size: 1em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #333;
+  
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
