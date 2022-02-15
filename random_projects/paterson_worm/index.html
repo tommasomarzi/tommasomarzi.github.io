@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <title>Paterson's worms</title>
+  </head>
+    <body>
+    <div class="upper">
+      <div class="title">Paterson's worms</div>
+    </div>
+   	<div class="description">
+      
+	<p> Paterson's worms are an example of cellular automata. The rules of this system are described in the <a href="https://en.wikipedia.org/wiki/Paterson%27s_worms">Wikipedia page</a>; you can find another good reference <a href="http://www.scientific601.altervista.org/worms/wo01.htm">here</a>.
+The goal is to take as many steps as possible, i.e. to make the worm grow as much as possible.
+The worm dies if it passes through a point already traveled or if it reaches one of the borders (boundary conditions are not implemented yet).
+      <br>
+      At first, press <span style="color: #bf8040">SPACE</span> to create a rule (integer number from 0 to 5, default 0) and then press <span style="color: #bf8040">ENTER</span> to append it in the list. 
+You have to repeat this process for each rule you want; if you press <span style="color: #bf8040">p</span> you will see the current list of rules (press space one more time if you want to continue to add new rules).
+Once you are ready, press <span style="color: #bf8040">s</span> to start the simulation (the origin more or less in the center).
+	<br> Click <a href="../../index.html">here</a> to go back to the home page.       
+	</p>
+		</div> 
+  <div class="script">
+    <script src="sketch.js"></script>
+  </div>        
+  
+  </body>
+
+</html>
