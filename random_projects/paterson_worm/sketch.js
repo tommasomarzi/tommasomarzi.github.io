@@ -222,8 +222,8 @@ function draw_grid()
 
 function draw_config()
 {  
-  let v_shift = cnv_pos.y - 70;
-  let h_shift = cnv_pos.x + 60;
+  let v_shift = 280;
+  let h_shift = 200;
   
   textSize(30);
   fill(0);
