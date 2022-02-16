@@ -222,11 +222,12 @@ function draw_grid()
 
 function draw_config()
 {  
+  let v_shift = cnv_pos.y - 70;
+  let h_shift = cnv_pos.x + 60;
   
-  let v_shift = cnv_pos.y + 200;
-  let h_shift = cnv_pos.x + 80;
-  
-  textSize(15);
+  textSize(30);
+  fill(0);
+  stroke(255); 
   text('3', h_shift - 35, v_shift);
   text('4', h_shift , v_shift - 35);
   text('2', h_shift , v_shift + 35);
@@ -234,6 +235,10 @@ function draw_config()
   text('1', h_shift + 35, v_shift + 35);
   text('0', h_shift + 70, v_shift);
   
+  strokeWeight(10);
+  stroke('red');
+  point( h_shift + 25, v_shift -10);
+
 }
 
 function print_rules()
@@ -243,7 +248,7 @@ function print_rules()
   
   let print_r = createElement('h8', 'Current set of rules:     [' + rules + ']');
   print_r.position(h_shift, v_shift);
-  
+ 
 }
 
 function set_rules()
