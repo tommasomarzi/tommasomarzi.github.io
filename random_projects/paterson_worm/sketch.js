@@ -100,7 +100,7 @@ function move(next_rule, x_curr, y_curr)
         if(grid[x_curr - 1][y_curr + 1] == 0)
         {
           x_next = x_curr - 1;
-          if(tmp_shift)
+          if(!tmp_shift)
           {
             x_next += 1;
           }
@@ -146,7 +146,7 @@ function move(next_rule, x_curr, y_curr)
         if(grid[x_curr - 1][y_curr - 1] == 0)
         {
           x_next = x_curr - 1;
-          if(tmp_shift)
+          if(!tmp_shift)
           {
             x_next += 1;
           }
