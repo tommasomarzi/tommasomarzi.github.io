@@ -14,8 +14,8 @@ let first_it = true;
 
 let stop = false;
 
-let x_zero = 2;
-let y_zero = 3;
+let x_zero = 15;
+let y_zero = 15;
 
 let x_pos = x_zero;
 let y_pos = y_zero;
