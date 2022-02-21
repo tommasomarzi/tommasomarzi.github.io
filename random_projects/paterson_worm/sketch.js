@@ -73,14 +73,15 @@ function move(next_rule, x_curr, y_curr)
       }
       else
       {
-        if(grid[x_curr +1][y_curr + 1] == 0)
-        {
           x_next = x_curr + 1;
           if(tmp_shift)
           {
             x_next -= 1;
           }
           y_next = y_curr + 1;
+        
+        if(grid[x_next][y_next] == 0)
+        {
           grid[x_next][y_next] = 1;
         }
         else
@@ -97,14 +98,15 @@ function move(next_rule, x_curr, y_curr)
       }
       else
       {
-        if(grid[x_curr - 1][y_curr + 1] == 0)
-        {
           x_next = x_curr - 1;
           if(!tmp_shift)
           {
             x_next += 1;
           }
           y_next = y_curr + 1;
+      
+        if(grid[x_next][y_next] == 0)
+        {
           grid[x_next][y_next] = 1;
           
         }
@@ -143,16 +145,16 @@ function move(next_rule, x_curr, y_curr)
       }
       else
       {
-        if(grid[x_curr - 1][y_curr - 1] == 0)
-        {
           x_next = x_curr - 1;
           if(!tmp_shift)
           {
             x_next += 1;
           }
           y_next = y_curr - 1;
+        
+        if(grid[x_next][y_next] == 0)
+        {
           grid[x_next][y_next] = 1;
-          
         }
         else
         {
@@ -168,16 +170,16 @@ function move(next_rule, x_curr, y_curr)
       }
       else
       {
-        if(grid[x_curr +1][y_curr - 1] == 0)
-        {
           x_next = x_curr + 1;
           if(tmp_shift)
           {
             x_next -= 1;
           }
           y_next = y_curr - 1;
+        
+        if(grid[x_next][y_next] == 0)
+        {
           grid[x_next][y_next] = 1;
-          
         }
         else
         {
@@ -187,6 +189,7 @@ function move(next_rule, x_curr, y_curr)
       break;        
   }
 }
+
 
 function reset_grid()
 {
