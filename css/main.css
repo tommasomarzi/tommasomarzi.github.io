@@ -59,3 +59,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.icon {
+    float: left;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
