@@ -9,12 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+### Education
+* B.S. in Physics, University of Bologna, 2017 - 2020
+* M.S. in Applied Physics, University of Bologna, 2020 - 2022
+* Ph.D in Graph Reinforcement Learning, The Swiss AI Lab IDSIA, USI (Lugano, Switzerland), 2022 - present
 
+### Publications
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+
+<!---  
 Work experience
 ======
 * Summer 2015: Research Assistant
@@ -36,12 +42,6 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -57,3 +57,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+--->

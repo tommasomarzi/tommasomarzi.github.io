@@ -14,6 +14,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
+<!-- TM: edit publication single page -->
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -44,7 +45,8 @@ layout: default
         
              
         {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+          <p>Recommended citation: {{ page.citation }}</p>
+          <p>Available at: <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
