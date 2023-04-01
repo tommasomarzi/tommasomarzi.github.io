@@ -1,20 +1,19 @@
 ---
-layout: archive
-title: "CV"
+<> layout: archive
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
-### Education
+# CV
+## Education
 * B.S. in Physics, University of Bologna, 2017 - 2020
 * M.S. in Applied Physics, University of Bologna, 2020 - 2022
 * Ph.D in Graph Reinforcement Learning, The Swiss AI Lab IDSIA, USI (Lugano, Switzerland), 2022 - present
 
-### Publications
+## Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

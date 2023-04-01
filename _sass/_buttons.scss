@@ -78,7 +78,7 @@
   /* warning */
 
   &--warning {
-    background-color: $warning-color;
+    background-color: $soft-blue;//$warning-color;
 
     &:hover {
       background-color: mix(#000, $warning-color, 20%);
