@@ -4,4 +4,4 @@ title: ""
 ---
 
 # Teaching
-Nothing to show (for now 👀)
+* [Deep Learning Lab](https://search.usi.ch/en/courses/35268165/deep-learning-lab) (prof E. Vercesi - autumn semester 2023): tutorials, seminar, and teaching assistant.
