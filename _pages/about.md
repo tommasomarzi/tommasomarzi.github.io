@@ -3,6 +3,10 @@ permalink: /
 title: ""
 excerpt: "About me"
 author_profile: true
+news: true # includes a list of news items
+latest_posts: false # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 redirect_from: 
   - /about/
   - /about.html
@@ -18,6 +22,9 @@ In december 2022 I started my PhD at [USI](https://www.usi.ch/).
 
 # Research interests
 I'm currently working on graph-based prediction and control in reinforcement learning. More in general, my research focuses on graph deep learning and reinforcement learning, but I'm also interested in graph theory, dynamical systems, and stochastic processes.
+
+# News
+Aug 01, 2024 - Our paper [Feudal Graph Reinforcement Learning](https://arxiv.org/abs/2304.05099) has been accepted to [EWRL 2024](https://ewrl.wordpress.com/ewrl17-2024/). See you in Toulouse!
 
 <!---
 # Things that I find interesting
