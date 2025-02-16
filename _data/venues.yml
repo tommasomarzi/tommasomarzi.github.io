@@ -1,9 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"Entropy":
+  url: https://www.mdpi.com/journal/entropy
+  color: "#00B3C7"
+
+"TMLR":
+  url: https://jmlr.org/tmlr/
   color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
