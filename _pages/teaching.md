@@ -20,6 +20,6 @@ nav_order: 6
 
 
 ### Deep Learning Lab
-* Held by Dr. [E. Vercesi](https://scholar.google.com/citations?user=59g06nQAAAAJ&hl=en&oi=ao) for MSc students @ [USI](https://www.usi.ch/).
+* Held by Dr. [E. Vercesi](https://scholar.google.com/citations?user=idh_se8AAAAJ&hl=en&oi=ao) for MSc students @ [USI](https://www.usi.ch/).
 * Teaching Activities: tutorials, seminar, and exam grading.
 * Semester: [Autumn 2023](https://search.usi.ch/en/courses/35268165/deep-learning-lab).
