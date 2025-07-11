@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: I regularly served as teaching assistant for the following courses.
+description: I served as teaching assistant for the following courses.
 nav: true
 nav_order: 6
 ---
@@ -10,7 +10,7 @@ nav_order: 6
 ### Graph Deep Learning
 * Held by professor [C. Alippi](https://scholar.google.com/citations?user=zyzNf4AAAAAJ&hl=en&oi=ao) for MSc students @ [USI](https://www.usi.ch/).
 * Teaching Activities: course organization, tutorials, exam preparation and grading.
-* Semesters: [Spring 2024](https://search.usi.ch/en/courses/35268137/graph-deep-learning), [Spring 2025](https://search.usi.ch/courses/35270698/graph-deep-learning).
+* Semesters: [Spring 2024](https://search.usi.ch/en/courses/35268137/graph-deep-learning), [Spring 2025](https://search.usi.ch/courses/35270698/graph-deep-learning), [Autumn 2025](https://search.usi.ch/index.php/en/courses/35275985/graph-deep-learning).
 
 
 ### Advanced Topics in Machine Learning
