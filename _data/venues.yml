@@ -5,3 +5,7 @@
 "TMLR":
   url: https://jmlr.org/tmlr/
   color: "#00369f"
+
+"Preprint":
+  url: https://arxiv.org/
+  color: "#9E2109"
