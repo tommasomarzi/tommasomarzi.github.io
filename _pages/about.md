@@ -21,6 +21,8 @@ I'm a Ph.D. student at [USI](https://www.usi.ch/) (Lugano, Switzerland :switzerl
 
 My main research interest is Reinforcement Learning, with a particular focus on graph deep learning operators.
 
+I co-organized the [Inductive Biases in Reinforcement Learning](https://sites.google.com/view/ibrl-workshop/home) workshop at [RLC 2025](https://rl-conference.cc/index.html).
+
 ## Background
 I obtained the Bachelor's degree in [Physics](https://corsi.unibo.it/1cycle/Physics) at the University of Bologna (Bologna, Italy :it:) in 2020, working on dynamical models for pedestrian dynamics in real-case scenarios. Subsequently, in 2022 I obtained the Master's degree in [Applied Physics](https://corsi.unibo.it/2cycle/Physics/course-structure-diagram/piano?code=9245&year=2020&manifest=en_2020_9245_000_B25_2020) from the same University, working on theoretical aspects of predictability and entropy for non-reversible Markov systems. 
 In december 2022 I started my PhD at [USI](https://www.usi.ch/).
