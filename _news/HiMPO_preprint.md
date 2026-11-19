@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A new preprint about my latest research! If you are interested in designing hierarchical MARL policies with communication, [check it out](https://arxiv.org/abs/2507.23604)! 
+A new preprint about my latest research! If you are interested in designing hierarchical MARL policies with communication, [check it out](https://arxiv.org/abs/2507.23604)!

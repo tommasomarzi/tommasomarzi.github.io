@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm co-organizing the Inductive Biases in Reinforcement Learning workshop, accepted at [RLC 2025](https://rl-conference.cc/index.html) (University of Alberta :canada:)! Check the [website](https://sites.google.com/view/ibrl-workshop/home) for more information. 
+I'm co-organizing the Inductive Biases in Reinforcement Learning workshop, accepted at [RLC 2025](https://rl-conference.cc/index.html) (University of Alberta :canada:)! Check the [website](https://sites.google.com/view/ibrl-workshop/home) for more information.

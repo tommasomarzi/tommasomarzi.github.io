@@ -27,8 +27,8 @@
 
 - title: Languages
   type: map
-  contents: 
+  contents:
     - name: Italian
       value: Native speaker
-    - name: English 
+    - name: English
       value: Fluent
