@@ -679,7 +679,7 @@ footer.sticky-bottom {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    color: var(--global-theme-color);
+    color: #4fb3e8;
     font-size: 1.1rem;
     font-weight: 600;
     letter-spacing: 0.05em;
@@ -691,7 +691,7 @@ footer.sticky-bottom {
     &::after {
       content: "";
       flex: 1;
-      border-top: 1px solid var(--global-divider-color);
+      border-top: 1px solid #4fb3e8;
     }
   }
 
