@@ -1,2 +1,8 @@
 linkedin.com
 reddit.com
+^https?://(www\.|search\.)?usi\.ch
+^https://scholar\.google\.com
+^https://stackoverflow\.com
+^https://unsplash\.com
+^http://www\.intmath\.com
+^https://github\.com/alshedivat/al-folio/blob/main/(INSTALL|FAQ)\.md#
